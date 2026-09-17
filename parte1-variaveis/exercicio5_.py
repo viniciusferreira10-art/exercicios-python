@@ -1,0 +1,6 @@
+print("digite o valor do produto: ")
+valor = input()
+print("digite a quantidade de produtos: ")
+quantidade = input()
+total = float(valor) * int(quantidade)
+print("O valor total da compra é: ", f"{total:.2f}")
